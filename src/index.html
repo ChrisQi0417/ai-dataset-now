@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101a30" />
+    <meta
+      name="description"
+      content="AI Dataset Now：从 Hugging Face、GitHub、Zenodo 汇聚最新且高信号的 AI 数据集。"
+    />
+    <title>AI Dataset Now · AI 数据集雷达</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#overview" aria-label="AI Dataset Now 首页">
+          <span class="brand-mark" aria-hidden="true">A<span>I</span></span>
+          <span>
+            <strong>AI Dataset</strong>
+            <small>NOW / DAILY RADAR</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="主导航">
+          <a class="active" href="#overview">精选</a>
+          <a href="#directory">数据目录</a>
+          <a href="#method">评分方法</a>
+        </nav>
+        <div class="topbar-actions">
+          <span class="live-status"><i aria-hidden="true"></i> DAILY SYNC</span>
+          <button class="icon-button" id="refresh-button" type="button" aria-label="手动刷新数据" title="手动从上游数据源拉取">
+            <span aria-hidden="true">↻</span><span class="refresh-label">刷新</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="overview">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> OPEN DATA / AI RESEARCH</p>
+            <h1>全网最新，<br /><em>值得用的 AI 数据集。</em></h1>
+            <p class="hero-description">
+              每日聚合 Hugging Face、GitHub 与 Zenodo 的公开信号，按新鲜度、社区使用度和数据卡完整度综合评分，只留下本期最值得打开的 50 条。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#directory">浏览今日精选 <span aria-hidden="true">↓</span></a>
+              <span class="inline-note"><i aria-hidden="true"></i><span id="hero-status">正在读取每日快照</span></span>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="今日数据集概览">
+            <div class="hero-card-head">
+              <span>DAILY SIGNAL</span>
+              <b>TOP 50</b>
+            </div>
+            <div class="hero-card-score"><strong id="hero-top-score">--</strong><span>/100</span></div>
+            <p>本期最高质量分</p>
+            <div class="score-track"><span id="hero-score-track"></span></div>
+            <div class="hero-card-foot"><span>更新时间</span><strong id="hero-updated">--</strong></div>
+            <div class="hero-card-orbit orbit-a"></div>
+            <div class="hero-card-orbit orbit-b"></div>
+          </div>
+        </section>
+
+        <section class="stat-strip" aria-label="数据集指标">
+          <article><span>今日精选</span><strong id="hero-count">--</strong><small>条高信号记录</small></article>
+          <article><span>覆盖来源</span><strong id="hero-sources">--</strong><small>公开数据平台</small></article>
+          <article><span>最新记录</span><strong id="hero-freshness">--</strong><small>距离现在</small></article>
+          <article><span>更新节奏</span><strong>24h</strong><small>自动 + 手动刷新</small></article>
+        </section>
+
+        <section class="directory-section" id="directory">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span></span> CURATED INDEX</p>
+              <h2>今天的 50 条精选</h2>
+            </div>
+            <div class="heading-note"><span class="pulse-dot" aria-hidden="true"></span><span id="feed-status">读取中…</span></div>
+          </div>
+
+          <div class="directory-layout">
+            <div class="directory-main">
+              <div class="control-card">
+                <label class="search-box" for="search-input">
+                  <span aria-hidden="true">⌕</span>
+                  <input id="search-input" type="search" placeholder="搜索数据集、任务、标签…" autocomplete="off" />
+                </label>
+                <label class="select-wrap">
+                  <span>来源</span>
+                  <select id="source-select">
+                    <option value="all">全部来源</option>
+                    <option value="huggingface">Hugging Face</option>
+                    <option value="github">GitHub</option>
+                    <option value="zenodo">Zenodo</option>
+                  </select>
+                </label>
+                <label class="select-wrap">
+                  <span>排序</span>
+                  <select id="sort-select">
+                    <option value="score">综合质量分</option>
+                    <option value="freshness">最近更新</option>
+                    <option value="popularity">社区热度</option>
+                  </select>
+                </label>
+                <a class="workflow-link" href="https://github.com/ChrisQi0417/ai-dataset-now/actions/workflows/update-datasets.yml" target="_blank" rel="noreferrer">手动运行每日任务 ↗</a>
+              </div>
+              <div class="feed-toolbar">
+                <span id="result-count">-- 条结果</span>
+                <span id="last-updated">快照时间：--</span>
+              </div>
+              <div class="dataset-list" id="feed-list" aria-live="polite"></div>
+            </div>
+
+            <aside class="method-column" id="method">
+              <article class="side-card quality-card">
+                <div class="side-card-heading"><div><span class="side-kicker">QUALITY INDEX</span><h3>评分不是热搜榜</h3></div><span class="side-mark">◎</span></div>
+                <p>把“最新”与“值得用”拆成可解释的三部分，再合成 100 分。</p>
+                <div class="weight-list">
+                  <div><span><i class="weight-blue"></i>新鲜度</span><strong>42%</strong></div>
+                  <div><span><i class="weight-orange"></i>社区信号</span><strong>40%</strong></div>
+                  <div><span><i class="weight-lime"></i>资料完整度</span><strong>18%</strong></div>
+                </div>
+                <div class="method-foot">每日同步后重新计算 · 可追溯来源</div>
+              </article>
+              <article class="side-card source-card">
+                <div class="side-card-heading"><div><span class="side-kicker">SOURCE MIX</span><h3>本期来源构成</h3></div><span class="side-mark source-mark">↗</span></div>
+                <div class="source-bars" id="source-summary"></div>
+                <div class="source-legend"><span><i class="dot-hf"></i>Hugging Face</span><span><i class="dot-gh"></i>GitHub</span><span><i class="dot-zenodo"></i>Zenodo</span></div>
+              </article>
+              <article class="side-card update-card">
+                <span class="side-kicker">SYNC STATUS</span>
+                <div class="sync-line"><span class="sync-dot"></span><strong id="sync-title">自动同步已配置</strong></div>
+                <p>GitHub Actions 每日运行一次；页面上的刷新按钮可即时拉取上游最新结果。</p>
+                <a href="#overview">返回顶部 ↑</a>
+              </article>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>AI DATASET NOW / OPEN DATA RADAR</span>
+        <span id="footer-build">独立部署 · Cloudflare Pages</span>
+      </footer>
+    </div>
+  </body>
+</html>
