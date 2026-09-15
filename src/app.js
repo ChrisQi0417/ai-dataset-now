@@ -62,6 +62,175 @@ function createTextElement(tagName, className, text) {
   return element;
 }
 
+const TERM_TRANSLATIONS = [
+  ["artificial intelligence", "人工智能"],
+  ["ai for science", "AI 科学研究"],
+  ["large language models", "大语言模型"],
+  ["large language model", "大语言模型"],
+  ["natural language processing", "自然语言处理"],
+  ["convolutional neural networks", "卷积神经网络"],
+  ["deep neural networks", "深度神经网络"],
+  ["feature extraction", "特征提取"],
+  ["text classification", "文本分类"],
+  ["text generation", "文本生成"],
+  ["image to image", "图像到图像"],
+  ["data analysis", "数据分析"],
+  ["data labels", "数据标签"],
+  ["data mining", "数据挖掘"],
+  ["data science", "数据科学"],
+  ["research software", "科研软件"],
+  ["scientific software", "科研软件"],
+  ["software engineering", "软件工程"],
+  ["high performance computing", "高性能计算"],
+  ["paper triage", "论文筛选"],
+  ["battery management systems", "电池管理系统"],
+  ["capacity degradation", "容量衰减"],
+  ["hybrid learning", "混合学习"],
+  ["lithium ion battery", "锂离子电池"],
+  ["performance evaluation", "性能评测"],
+  ["model cards", "模型卡"],
+  ["open dataset", "开放数据集"],
+  ["awesome list", "精选清单"],
+  ["ai safety", "AI 安全"],
+  ["ai assisted", "AI 辅助"],
+  ["source datasets", "来源数据集"],
+  ["deep learning", "深度学习"],
+  ["machine learning", "机器学习"],
+  ["computer vision", "计算机视觉"],
+  ["speaker diarization", "说话人分离"],
+  ["object detection", "目标检测"],
+  ["image classification", "图像分类"],
+  ["image segmentation", "图像分割"],
+  ["data quality", "数据质量"],
+  ["data security", "数据安全"],
+  ["embodied ai", "具身 AI"],
+  ["agentic ai", "智能体 AI"],
+  ["ai agent", "AI 智能体"],
+  ["open source", "开源"],
+  ["time series", "时间序列"],
+  ["timeseries", "时间序列"],
+  ["anomaly detection", "异常检测"],
+  ["fraud detection", "欺诈检测"],
+  ["benchmark", "基准测试"],
+  ["evaluation", "评测"],
+  ["multimodal", "多模态"],
+  ["robotics", "机器人"],
+  ["humanoid", "人形机器人"],
+  ["datasets", "数据集"],
+  ["dataset", "数据集"],
+  ["database", "数据库"],
+  ["tracking", "跟踪"],
+  ["latency", "延迟"],
+  ["prices", "价格"],
+  ["price", "价格"],
+  ["cost", "成本"],
+  ["logs", "日志"],
+  ["log", "日志"],
+  ["processing", "处理"],
+  ["framework", "框架"],
+  ["tools", "工具"],
+  ["tool", "工具"],
+  ["library", "库"],
+  ["research", "研究"],
+  ["science", "科学"],
+  ["repository", "代码仓库"],
+  ["software", "软件"],
+  ["preprint", "预印本"],
+  ["presentation", "演示文稿"],
+  ["journal", "期刊"],
+  ["poster", "海报"],
+  ["sft", "监督微调"],
+  ["security", "安全"],
+  ["models", "模型"],
+  ["model", "模型"],
+  ["training", "训练"],
+  ["synthetics", "合成数据"],
+  ["synthetic", "合成"],
+  ["rollouts", "轨迹"],
+  ["classification", "分类"],
+  ["generation", "生成"],
+  ["translation", "翻译"],
+  ["language", "语言"],
+  ["papers", "论文"],
+  ["paper", "论文"],
+  ["features", "特征"],
+  ["feature", "特征"],
+  ["images", "图像"],
+  ["image", "图像"],
+  ["video", "视频"],
+  ["audio", "音频"],
+  ["text", "文本"],
+  ["tabular", "表格"],
+  ["data", "数据"],
+  ["ai", "AI"],
+  ["radar", "雷达"],
+  ["agent", "智能体"]
+];
+
+const TOPIC_RULES = [
+  [/benchmark|evaluation|eval/, "模型评测"],
+  [/multimodal/, "多模态"],
+  [/language|llm|nlp|text|translation|dialog/, "语言与文本"],
+  [/vision|image|video|segmentation|object detection/, "计算机视觉"],
+  [/audio|speech|voice|diarization/, "语音与音频"],
+  [/robot|embodied|humanoid|lerobot/, "机器人与具身智能"],
+  [/tabular|csv|parquet|dataframe/, "表格数据"],
+  [/time series|timeseries|temporal/, "时间序列"],
+  [/(?:ai for science|scientific|physics|chemistry|biology|protein|enzyme)/, "AI 科学研究"],
+  [/security|cyber|safety|attack|privacy/, "安全与可靠性"],
+  [/anomaly|fraud|log/, "异常与日志分析"]
+];
+
+const bilingualCache = new WeakMap();
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function translateTerms(value) {
+  let text = String(value || "").replace(/[_-]+/g, " ").replace(/\s+/g, " ").trim();
+  TERM_TRANSLATIONS.forEach(([source, target]) => {
+    text = text.replace(new RegExp(`\\b${escapeRegExp(source)}\\b`, "gi"), target);
+  });
+  return text.replace(/\s+([,.;:!?])/g, "$1");
+}
+
+function stripMarkup(value) {
+  const container = document.createElement("div");
+  container.innerHTML = String(value || "");
+  return (container.textContent || "").replace(/\s+/g, " ").trim();
+}
+
+function getChineseTopics(item) {
+  const haystack = `${item.title || ""} ${item.description || ""} ${(item.tags || []).join(" ")}`.toLowerCase();
+  return TOPIC_RULES.filter(([pattern]) => pattern.test(haystack)).map(([, label]) => label).slice(0, 3);
+}
+
+function getChineseSummary(item) {
+  const topics = getChineseTopics(item);
+  const tags = [...new Set((item.tags || []).map((tag) => translateTerms(tag)).filter(Boolean))].slice(0, 5);
+  const details = [];
+  if (topics.length) details.push(`主题：${topics.join("、")}`);
+  if (tags.length) details.push(`关键词：${tags.join("、")}`);
+  if (item.format) details.push(`格式/载体：${translateTerms(item.format)}`);
+  if (item.license && item.license !== "NOASSERTION") details.push(`许可：${item.license}`);
+  return details.length ? `${details.join("；")}。` : "AI 数据资源条目，中文速览由标签与公开元数据自动整理。";
+}
+
+function getBilingualContent(item) {
+  if (bilingualCache.has(item)) return bilingualCache.get(item);
+  const englishTitle = item.title || item.fullName || "Unnamed dataset";
+  const translatedTitle = translateTerms(englishTitle);
+  const content = {
+    titleZh: translatedTitle === englishTitle ? `AI 数据资源：${englishTitle}` : translatedTitle,
+    titleEn: englishTitle,
+    summaryZh: getChineseSummary(item),
+    descriptionEn: stripMarkup(item.description) || "No dataset card description provided."
+  };
+  bilingualCache.set(item, content);
+  return content;
+}
+
 function createDatasetCard(item, visibleRank) {
   const article = document.createElement("article");
   article.className = "dataset-item";
@@ -76,16 +245,22 @@ function createDatasetCard(item, visibleRank) {
   link.href = item.url || "#";
   link.target = "_blank";
   link.rel = "noreferrer";
-  link.textContent = item.title || item.fullName || "未命名数据集";
+  const bilingual = getBilingualContent(item);
+  link.textContent = bilingual.titleZh;
   title.append(link);
   titleLine.append(title, createTextElement("span", "score-badge", String(item.score ?? "--")));
 
-  const description = createTextElement("p", "dataset-description", item.description || "暂无数据卡描述。");
+  const titleEnglish = createTextElement("p", "dataset-title-en", `English title / 英文标题：${bilingual.titleEn}`);
+  const descriptionZh = createTextElement("p", "dataset-description-zh", `中文速览 / Chinese summary：${bilingual.summaryZh}`);
+  const descriptionEn = createTextElement("p", "dataset-description-en", `English description / 英文简介：${bilingual.descriptionEn}`);
   const tags = document.createElement("div");
   tags.className = "dataset-tags";
   const tagValues = Array.isArray(item.tags) && item.tags.length ? item.tags.slice(0, 5) : [item.format || "Dataset"];
   tagValues.forEach((tag) => tags.append(createTextElement("span", "dataset-tag", tag)));
-  content.append(titleLine, description, tags);
+  const tagsBlock = document.createElement("div");
+  tagsBlock.className = "dataset-tags-block";
+  tagsBlock.append(createTextElement("span", "dataset-tags-label", "Tags / 标签"), tags);
+  content.append(titleLine, titleEnglish, descriptionZh, descriptionEn, tagsBlock);
 
   const side = document.createElement("div");
   side.className = "dataset-side";
@@ -96,10 +271,10 @@ function createDatasetCard(item, visibleRank) {
   opened.href = item.url || "#";
   opened.target = "_blank";
   opened.rel = "noreferrer";
-  opened.textContent = "打开来源 ↗";
+  opened.textContent = "打开来源 / Open source ↗";
   const metricText = item.source === "GitHub"
-    ? `★ ${formatCount(item.metrics?.stars)} · 更新 ${ageLabel(item.updatedAt)}`
-    : `↓ ${formatCount(item.metrics?.downloads)} · 更新 ${ageLabel(item.updatedAt)}`;
+    ? `★ ${formatCount(item.metrics?.stars)} · 更新 / Updated ${ageLabel(item.updatedAt)}`
+    : `↓ ${formatCount(item.metrics?.downloads)} · 下载 / Downloads · 更新 / Updated ${ageLabel(item.updatedAt)}`;
   side.append(source, opened, createTextElement("span", "dataset-metrics", metricText));
 
   article.append(rank, content, side);
@@ -112,7 +287,8 @@ function getFilteredItems() {
     const matchesSource = state.source === "all" || item.sourceKey === state.source;
     if (!matchesSource) return false;
     if (!query) return true;
-    const haystack = [item.title, item.fullName, item.description, item.source, ...(item.tags || [])].join(" " ).toLowerCase();
+    const bilingual = getBilingualContent(item);
+    const haystack = [item.title, item.fullName, item.description, item.source, bilingual.titleZh, bilingual.summaryZh, ...(item.tags || [])].join(" ").toLowerCase();
     return haystack.includes(query);
   });
 
@@ -200,7 +376,7 @@ async function loadSnapshot() {
       feedList.replaceChildren();
       const errorState = document.createElement("div");
       errorState.className = "error-state";
-      errorState.append(createTextElement("strong", "", "暂时无法读取数据快照"), createTextElement("span", "", "请稍后刷新，或检查 Cloudflare Pages 构建输出。"));
+      errorState.append(createTextElement("strong", "暂时无法读取数据快照"), createTextElement("span", "请稍后刷新，或检查 Cloudflare Pages 构建输出。"));
       feedList.append(errorState);
     }
     console.error(error);

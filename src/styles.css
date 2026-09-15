@@ -128,9 +128,13 @@ h1 em { color: var(--blue); font-style: normal; }
 .dataset-titleline { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
 .dataset-titleline h3 { margin: 0; font-size: 1rem; letter-spacing: -0.035em; line-height: 1.22; }
 .dataset-titleline h3 a:hover { color: var(--blue); }
+.dataset-title-en { margin: 0.32rem 0 0; color: var(--muted); font-size: 0.62rem; line-height: 1.45; }
 .score-badge { display: inline-flex; align-items: baseline; gap: 0.12rem; flex: 0 0 auto; padding: 0.25rem 0.45rem; border-radius: 7px; background: var(--lime); color: var(--ink); font-family: "SFMono-Regular", Consolas, monospace; font-size: 0.72rem; font-weight: 900; }
 .score-badge::before { content: "S"; margin-right: 0.1rem; color: #6e8928; font-size: 0.53rem; }
-.dataset-description { max-width: 720px; margin: 0.55rem 0 0.7rem; color: var(--ink-soft); font-size: 0.73rem; line-height: 1.6; }
+.dataset-description-zh { max-width: 720px; margin: 0.62rem 0 0.18rem; color: var(--ink); font-size: 0.74rem; line-height: 1.58; }
+.dataset-description-en { max-width: 720px; margin: 0.18rem 0 0.72rem; color: var(--ink-soft); font-size: 0.68rem; line-height: 1.55; }
+.dataset-tags-block { display: grid; gap: 0.3rem; }
+.dataset-tags-label { color: var(--muted); font-size: 0.55rem; font-weight: 800; letter-spacing: 0.05em; }
 .dataset-tags { display: flex; gap: 0.35rem; flex-wrap: wrap; }
 .dataset-tag { padding: 0.23rem 0.42rem; border-radius: 5px; background: #f0f2f6; color: var(--ink-soft); font-size: 0.57rem; font-weight: 750; }
 .dataset-side { display: grid; justify-items: end; gap: 0.62rem; min-width: 117px; }
