@@ -1,0 +1,16 @@
+{
+  "name": "ai-dataset-now",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Dataset Now - a daily ranked index of high-signal AI datasets",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "fetch-data": "node scripts/fetch-datasets.mjs",
+    "preview": "node scripts/serve.mjs dist"
+  }
+}
