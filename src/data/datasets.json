@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T09:49:38.816Z",
+  "generatedAt": "2026-10-26T11:08:45.654Z",
   "itemCount": 50,
   "ranking": {
     "freshnessWeight": 0.42,
@@ -35,9 +35,8 @@
     {
       "source": "GitHub",
       "endpoint": "github-latest",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403"
+      "status": "ok",
+      "count": 100
     },
     {
       "source": "GitHub",
@@ -53,6 +52,44 @@
     }
   ],
   "items": [
+    {
+      "id": "github:satellite-image-deep-learning/techniques",
+      "title": "techniques",
+      "fullName": "satellite-image-deep-learning/techniques",
+      "description": "Techniques for deep learning with satellite & aerial imagery",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/satellite-image-deep-learning/techniques",
+      "updatedAt": "2026-10-26T10:00:47.000Z",
+      "license": "Apache-2.0",
+      "format": "Open source",
+      "tags": [
+        "convolutional neural networks",
+        "dataset",
+        "datasets",
+        "deep learning",
+        "deep neural networks",
+        "earth observation"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 10290,
+        "stars": 10290,
+        "forks": 1647
+      },
+      "quality": 95,
+      "score": 82,
+      "freshness": 100,
+      "popularity": 58,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 16,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 1
+    },
     {
       "id": "github:huggingface/datasets",
       "title": "datasets",
@@ -74,52 +111,14 @@
       ],
       "metrics": {
         "downloads": 0,
-        "likes": 22085,
-        "stars": 22085,
-        "forks": 3567
+        "likes": 22088,
+        "stars": 22088,
+        "forks": 3571
       },
       "quality": 95,
-      "score": 83,
-      "freshness": 97,
-      "popularity": 63,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 16,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 1
-    },
-    {
-      "id": "github:satellite-image-deep-learning/techniques",
-      "title": "techniques",
-      "fullName": "satellite-image-deep-learning/techniques",
-      "description": "Techniques for deep learning with satellite & aerial imagery",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/satellite-image-deep-learning/techniques",
-      "updatedAt": "2026-10-22T15:54:42.000Z",
-      "license": "Apache-2.0",
-      "format": "Open source",
-      "tags": [
-        "convolutional neural networks",
-        "dataset",
-        "datasets",
-        "deep learning",
-        "deep neural networks",
-        "earth observation"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 10290,
-        "stars": 10290,
-        "forks": 1647
-      },
-      "quality": 95,
-      "score": 80,
+      "score": 82,
       "freshness": 95,
-      "popularity": 58,
+      "popularity": 63,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -137,7 +136,7 @@
       "source": "GitHub",
       "sourceKey": "github",
       "url": "https://github.com/tensorflow/datasets",
-      "updatedAt": "2026-10-23T16:17:09.000Z",
+      "updatedAt": "2026-10-26T10:53:16.000Z",
       "license": "Apache-2.0",
       "format": "Python repository",
       "tags": [
@@ -155,8 +154,8 @@
         "forks": 1592
       },
       "quality": 95,
-      "score": 79,
-      "freshness": 97,
+      "score": 81,
+      "freshness": 100,
       "popularity": 54,
       "signals": {
         "hasDescription": true,
@@ -166,6 +165,116 @@
         "isDirectDataset": true
       },
       "rank": 3
+    },
+    {
+      "id": "github:logpai/loghub",
+      "title": "loghub",
+      "fullName": "logpai/loghub",
+      "description": "A large collection of system log datasets for AI-driven log analytics [ISSRE'23]",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/logpai/loghub",
+      "updatedAt": "2026-10-26T09:46:08.000Z",
+      "license": "NOASSERTION",
+      "format": "Open source",
+      "tags": [
+        "anomaly detection",
+        "datasets",
+        "log analysis",
+        "log intelligence",
+        "log parsing",
+        "logs"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 2887,
+        "stars": 2887,
+        "forks": 800
+      },
+      "quality": 95,
+      "score": 79,
+      "freshness": 100,
+      "popularity": 50,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 7,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 4
+    },
+    {
+      "id": "github:ai4s-research/awesome-ai-for-science",
+      "title": "awesome-ai-for-science",
+      "fullName": "ai4s-research/awesome-ai-for-science",
+      "description": "A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biology, materials, and beyond.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/ai4s-research/awesome-ai-for-science",
+      "updatedAt": "2026-10-26T08:37:00.000Z",
+      "license": "MIT",
+      "format": "Open source",
+      "tags": [
+        "ai for science",
+        "ai4s",
+        "ai4science",
+        "awesome",
+        "awesome list",
+        "bioinformatics"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 2052,
+        "stars": 2052,
+        "forks": 256
+      },
+      "quality": 95,
+      "score": 78,
+      "freshness": 100,
+      "popularity": 47,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 7,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 5
+    },
+    {
+      "id": "hf:open-llm-leaderboard/requests",
+      "title": "Requests",
+      "fullName": "open-llm-leaderboard/requests",
+      "description": "Hugging Face Hub 上的 AI 数据集，建议打开数据卡查看字段、许可和使用方式。",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/open-llm-leaderboard/requests",
+      "updatedAt": "2026-10-26T02:34:54.000Z",
+      "license": "apache-2.0",
+      "format": "Dataset",
+      "tags": [
+        "license:apache 2.0",
+        "region:us"
+      ],
+      "metrics": {
+        "downloads": 182275,
+        "likes": 14,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 60,
+      "score": 75,
+      "freshness": 99,
+      "popularity": 57,
+      "signals": {
+        "hasDescription": false,
+        "hasLicense": true,
+        "tagCount": 0,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 6
     },
     {
       "id": "github:huggingface/dataset-viewer",
@@ -193,8 +302,8 @@
         "forks": 140
       },
       "quality": 95,
-      "score": 75,
-      "freshness": 98,
+      "score": 74,
+      "freshness": 96,
       "popularity": 42,
       "signals": {
         "hasDescription": true,
@@ -203,7 +312,121 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "id": "github:thiagobodruk/bible",
+      "title": "bible",
+      "fullName": "thiagobodruk/bible",
+      "description": "Bible text in JSON and XML — 141 versions across 85 languages, ready for apps, verse search, and NLP/AI datasets",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/thiagobodruk/bible",
+      "updatedAt": "2026-10-24T00:52:03.000Z",
+      "license": "MIT",
+      "format": "Open source",
+      "tags": [
+        "bible",
+        "bible api",
+        "bible json",
+        "bible verses",
+        "bible xml",
+        "christian"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 771,
+        "stars": 771,
+        "forks": 224
+      },
+      "quality": 95,
+      "score": 74,
+      "freshness": 96,
+      "popularity": 42,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 15,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 8
+    },
+    {
+      "id": "github:TIGER-AI-Lab/ClawBench",
+      "title": "ClawBench",
+      "fullName": "TIGER-AI-Lab/ClawBench",
+      "description": "Open-source benchmark for browser AI agents on daily tasks.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench",
+      "updatedAt": "2026-10-23T15:52:23.000Z",
+      "license": "Apache-2.0",
+      "format": "Python repository",
+      "tags": [
+        "agent evaluation",
+        "agentic ai",
+        "ai agent benchmark",
+        "ai agents",
+        "benchmark",
+        "browser agent"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 1124,
+        "stars": 1124,
+        "forks": 68
+      },
+      "quality": 95,
+      "score": 74,
+      "freshness": 95,
+      "popularity": 42,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 20,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 9
+    },
+    {
+      "id": "github:ktwu01/benchmark-radar",
+      "title": "benchmark-radar",
+      "fullName": "ktwu01/benchmark-radar",
+      "description": "Track 33,707+ AI benchmark, eval, dataset, and data-quality records from 40 public sources, with linked evidence and daily updates.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/ktwu01/benchmark-radar",
+      "updatedAt": "2026-10-26T11:02:37.000Z",
+      "license": "MIT",
+      "format": "Python repository",
+      "tags": [
+        "agent bench",
+        "agent benchmark",
+        "agent benchmarking",
+        "agent benchmarks",
+        "agentic benchmark",
+        "agentic benchmarking"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 306,
+        "stars": 306,
+        "forks": 50
+      },
+      "quality": 95,
+      "score": 73,
+      "freshness": 100,
+      "popularity": 35,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 20,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 10
     },
     {
       "id": "github:nolabs-ai/deepfabric",
@@ -231,8 +454,8 @@
         "forks": 81
       },
       "quality": 95,
-      "score": 74,
-      "freshness": 95,
+      "score": 73,
+      "freshness": 94,
       "popularity": 41,
       "signals": {
         "hasDescription": true,
@@ -241,7 +464,45 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 5
+      "rank": 11
+    },
+    {
+      "id": "github:asigalov61/Tegridy-MIDI-Dataset",
+      "title": "Tegridy-MIDI-Dataset",
+      "fullName": "asigalov61/Tegridy-MIDI-Dataset",
+      "description": "Tegridy MIDI Dataset for precise and effective Music AI models creation.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/asigalov61/Tegridy-MIDI-Dataset",
+      "updatedAt": "2026-10-26T01:11:31.000Z",
+      "license": "Apache-2.0",
+      "format": "Python repository",
+      "tags": [
+        "artificial intelligence",
+        "dataset",
+        "datasets",
+        "karaoke",
+        "midi",
+        "midi converter"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 299,
+        "stars": 299,
+        "forks": 21
+      },
+      "quality": 95,
+      "score": 72,
+      "freshness": 99,
+      "popularity": 34,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 20,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 12
     },
     {
       "id": "hf:zenml/llmops-database",
@@ -263,14 +524,14 @@
         "news articles headline generation"
       ],
       "metrics": {
-        "downloads": 972,
+        "downloads": 969,
         "likes": 24,
         "stars": 0,
         "forks": 0
       },
       "quality": 100,
       "score": 72,
-      "freshness": 96,
+      "freshness": 94,
       "popularity": 35,
       "signals": {
         "hasDescription": true,
@@ -279,7 +540,159 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 6
+      "rank": 13
+    },
+    {
+      "id": "hf:Rapidata/text-to-3d-with-llm-code",
+      "title": "Text To 3d With Llm Code",
+      "fullName": "Rapidata/text-to-3d-with-llm-code",
+      "description": "Rapidata Text-to-3D with LLM code Benchmark Built by Rapidata, collected with the Rapidata Python SDK. To evaluate your own models and create a leaderboard, check out our MRI. Live Leaderboard Explore the full interac…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/Rapidata/text-to-3d-with-llm-code",
+      "updatedAt": "2026-10-22T14:48:56.000Z",
+      "license": "cc-by-4.0",
+      "format": "Dataset",
+      "tags": [
+        "text to video",
+        "image",
+        "tabular",
+        "text",
+        "language:en",
+        "license:cc by 4.0"
+      ],
+      "metrics": {
+        "downloads": 1581,
+        "likes": 27,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 96,
+      "score": 72,
+      "freshness": 93,
+      "popularity": 38,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 4,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 14
+    },
+    {
+      "id": "hf:AtesiT/ru-llm-judge-dataset",
+      "title": "Ru Llm Judge Dataset",
+      "fullName": "AtesiT/ru-llm-judge-dataset",
+      "description": "RU-LLM-Judge-Dataset Датасет собирается инкрементально в течение нескольких сессий бесплатного Google Colab. Текущий объём: 31,591 суждений (по состоянию на последний запуск). Прогресс к цели (5,000 суждений) [███████…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/AtesiT/ru-llm-judge-dataset",
+      "updatedAt": "2026-10-25T20:20:53.000Z",
+      "license": "mit",
+      "format": "Dataset",
+      "tags": [
+        "text",
+        "language:ru",
+        "license:mit",
+        "size categories:10K<n<100K",
+        "format:parquet",
+        "format:optimized parquet"
+      ],
+      "metrics": {
+        "downloads": 3564,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 84,
+      "score": 71,
+      "freshness": 99,
+      "popularity": 36,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 1,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 15
+    },
+    {
+      "id": "github:wadeKeith/Awesome-Embodied-AI",
+      "title": "Awesome-Embodied-AI",
+      "fullName": "wadeKeith/Awesome-Embodied-AI",
+      "description": "Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/wadeKeith/Awesome-Embodied-AI",
+      "updatedAt": "2026-10-25T10:09:39.000Z",
+      "license": "MIT",
+      "format": "Python repository",
+      "tags": [
+        "awesome list",
+        "datasets",
+        "embodied ai",
+        "humanoid robotics",
+        "physical ai",
+        "reinforcement learning"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 253,
+        "stars": 253,
+        "forks": 21
+      },
+      "quality": 95,
+      "score": 71,
+      "freshness": 98,
+      "popularity": 33,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 12,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 16
+    },
+    {
+      "id": "github:NVlabs/physical_ai_av",
+      "title": "physical_ai_av",
+      "fullName": "NVlabs/physical_ai_av",
+      "description": "Devkit and documentation for the NVIDIA Physical AI Autonomous Vehicles Dataset",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/NVlabs/physical_ai_av",
+      "updatedAt": "2026-10-23T06:29:59.000Z",
+      "license": "MIT",
+      "format": "Python repository",
+      "tags": [
+        "autonomous driving",
+        "autonomous driving dataset",
+        "autonomous vehicles",
+        "computer vision",
+        "dataset",
+        "devkit"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 377,
+        "stars": 377,
+        "forks": 53
+      },
+      "quality": 95,
+      "score": 71,
+      "freshness": 94,
+      "popularity": 36,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 12,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 17
     },
     {
       "id": "github:ENSTA-U2IS-AI/awesome-uncertainty-deeplearning",
@@ -307,8 +720,8 @@
         "forks": 81
       },
       "quality": 95,
-      "score": 72,
-      "freshness": 91,
+      "score": 71,
+      "freshness": 89,
       "popularity": 41,
       "signals": {
         "hasDescription": true,
@@ -317,45 +730,118 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 7
+      "rank": 18
     },
     {
-      "id": "hf:AtesiT/ru-llm-judge-dataset",
-      "title": "Ru Llm Judge Dataset",
-      "fullName": "AtesiT/ru-llm-judge-dataset",
-      "description": "RU-LLM-Judge-Dataset Датасет собирается инкрементально в течение нескольких сессий бесплатного Google Colab. Текущий объём: 26,197 суждений (по состоянию на последний запуск). Прогресс к цели (5,000 суждений) [███████…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/AtesiT/ru-llm-judge-dataset",
-      "updatedAt": "2026-10-24T16:26:58.000Z",
-      "license": "mit",
-      "format": "Dataset",
+      "id": "github:SciWhite/university-ai-policy-tracker",
+      "title": "university-ai-policy-tracker",
+      "fullName": "SciWhite/university-ai-policy-tracker",
+      "description": "Open, evidence-backed infrastructure for tracking university AI policies worldwide.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/SciWhite/university-ai-policy-tracker",
+      "updatedAt": "2026-10-26T08:38:04.000Z",
+      "license": "Apache-2.0",
+      "format": "TypeScript repository",
       "tags": [
-        "text",
-        "language:ru",
-        "license:mit",
-        "size categories:10K<n<100K",
-        "format:parquet",
-        "format:optimized parquet"
+        "ai governance",
+        "ai policy",
+        "dataset",
+        "education",
+        "higher education",
+        "nextjs"
       ],
       "metrics": {
-        "downloads": 3040,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
+        "downloads": 0,
+        "likes": 121,
+        "stars": 121,
+        "forks": 11
       },
-      "quality": 84,
-      "score": 71,
-      "freshness": 99,
-      "popularity": 35,
+      "quality": 95,
+      "score": 70,
+      "freshness": 100,
+      "popularity": 28,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
-        "tagCount": 1,
+        "tagCount": 10,
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 8
+      "rank": 19
+    },
+    {
+      "id": "hf:llmlatency/llm-latency-tracker",
+      "title": "Llm Latency Tracker",
+      "fullName": "llmlatency/llm-latency-tracker",
+      "description": "LLM Latency Tracker Independent, continuously measured latency and availability for AI inference API providers, aggregated by day. Covers 46 providers across 4 regions (ap-tokyo, eu-hetzner, sa-east, us-central), buil…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/llmlatency/llm-latency-tracker",
+      "updatedAt": "2026-10-26T07:51:32.000Z",
+      "license": "cc-by-4.0",
+      "format": "Dataset",
+      "tags": [
+        "tabular",
+        "text",
+        "language:en",
+        "license:cc by 4.0",
+        "size categories:10K<n<100K",
+        "format:csv"
+      ],
+      "metrics": {
+        "downloads": 578,
+        "likes": 2,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 88,
+      "score": 70,
+      "freshness": 100,
+      "popularity": 30,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 2,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 20
+    },
+    {
+      "id": "github:allenporter/home-assistant-datasets",
+      "title": "home-assistant-datasets",
+      "fullName": "allenporter/home-assistant-datasets",
+      "description": "This package is a collection of datasets for evaluating AI Models in the context of Home Assistant.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/allenporter/home-assistant-datasets",
+      "updatedAt": "2026-10-26T06:07:38.000Z",
+      "license": "Apache-2.0",
+      "format": "Jupyter Notebook repository",
+      "tags": [
+        "home assistant",
+        "llm",
+        "Jupyter Notebook"
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 261,
+        "stars": 261,
+        "forks": 21
+      },
+      "quality": 83,
+      "score": 70,
+      "freshness": 100,
+      "popularity": 33,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 2,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 21
     },
     {
       "id": "hf:MARK18964758/LLM_for_novel_with_history_and_superheroines",
@@ -373,14 +859,14 @@
         "region:us"
       ],
       "metrics": {
-        "downloads": 4650,
+        "downloads": 4550,
         "likes": 1,
         "stars": 0,
         "forks": 0
       },
       "quality": 80,
-      "score": 71,
-      "freshness": 98,
+      "score": 70,
+      "freshness": 96,
       "popularity": 38,
       "signals": {
         "hasDescription": true,
@@ -389,37 +875,75 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 9
+      "rank": 22
     },
     {
-      "id": "hf:Rapidata/text-to-3d-with-llm-code",
-      "title": "Text To 3d With Llm Code",
-      "fullName": "Rapidata/text-to-3d-with-llm-code",
-      "description": "Rapidata Text-to-3D with LLM code Benchmark Built by Rapidata, collected with the Rapidata Python SDK. To evaluate your own models and create a leaderboard, check out our MRI. Live Leaderboard Explore the full interac…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/Rapidata/text-to-3d-with-llm-code",
-      "updatedAt": "2026-10-22T14:48:56.000Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
+      "id": "github:yzhao062/awesome-auditable-ai",
+      "title": "awesome-auditable-ai",
+      "fullName": "yzhao062/awesome-auditable-ai",
+      "description": "Auditing AI agents: a curated list of papers, tools, datasets, benchmarks, and standards covering reliability, monitoring, failure attribution, and decision records.",
+      "source": "GitHub",
+      "sourceKey": "github",
+      "url": "https://github.com/yzhao062/awesome-auditable-ai",
+      "updatedAt": "2026-10-24T08:48:23.000Z",
+      "license": "CC0-1.0",
+      "format": "Python repository",
       "tags": [
-        "text to video",
-        "image",
-        "tabular",
-        "text",
-        "language:en",
-        "license:cc by 4.0"
+        "agent evaluation",
+        "agent reliability",
+        "agentic ai",
+        "ai agents",
+        "ai safety",
+        "auditable"
       ],
       "metrics": {
-        "downloads": 758,
-        "likes": 24,
+        "downloads": 0,
+        "likes": 156,
+        "stars": 156,
+        "forks": 42
+      },
+      "quality": 95,
+      "score": 70,
+      "freshness": 96,
+      "popularity": 31,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 13,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 23
+    },
+    {
+      "id": "hf:kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
+      "title": "Multimodal Tip Of The Tongue Retrieval For Scientific Documents",
+      "fullName": "kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
+      "description": "Open-Source Scientific Documents This repository contains the scientific-paper corpus and generated artifacts for Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers. It brings together source PDFs, extracted…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
+      "updatedAt": "2026-10-23T05:08:08.000Z",
+      "license": "mit",
+      "format": "Dataset",
+      "tags": [
+        "visual document retrieval",
+        "text ranking",
+        "text retrieval",
+        "document",
+        "language:en",
+        "license:mit"
+      ],
+      "metrics": {
+        "downloads": 1112,
+        "likes": 1,
         "stars": 0,
         "forks": 0
       },
       "quality": 96,
-      "score": 71,
-      "freshness": 95,
-      "popularity": 34,
+      "score": 70,
+      "freshness": 94,
+      "popularity": 32,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -427,7 +951,7 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "github:jonathanwvd/awesome-industrial-datasets",
@@ -455,8 +979,8 @@
         "forks": 86
       },
       "quality": 95,
-      "score": 71,
-      "freshness": 90,
+      "score": 70,
+      "freshness": 88,
       "popularity": 39,
       "signals": {
         "hasDescription": true,
@@ -465,75 +989,113 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 11
+      "rank": 25
     },
     {
-      "id": "github:wq2012/awesome-diarization",
-      "title": "awesome-diarization",
-      "fullName": "wq2012/awesome-diarization",
-      "description": "A curated list of awesome Speaker Diarization papers, libraries, datasets, and other resources.",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/wq2012/awesome-diarization",
-      "updatedAt": "2026-10-15T20:58:28.000Z",
-      "license": "Apache-2.0",
-      "format": "Open source",
+      "id": "hf:megrisdal/llms-txt",
+      "title": "Llms Txt",
+      "fullName": "megrisdal/llms-txt",
+      "description": "Context & Motivation https://llmstxt.org/ is a project from Answer.AI which proposes to \"standardise on using an /llms.txt file to provide information to help LLMs use a website at inference time.\" I've noticed many t…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/megrisdal/llms-txt",
+      "updatedAt": "2026-10-26T10:38:49.000Z",
+      "license": "cc0-1.0",
+      "format": "Dataset",
       "tags": [
-        "awesome",
-        "awesome list",
-        "deep learning",
-        "machine learning",
-        "speaker diarization",
-        "speech processing"
+        "text",
+        "license:cc0 1.0",
+        "size categories:n<1K",
+        "format:parquet",
+        "library:datasets",
+        "library:pandas"
       ],
       "metrics": {
-        "downloads": 0,
-        "likes": 1913,
-        "stars": 1913,
-        "forks": 250
+        "downloads": 406,
+        "likes": 13,
+        "stars": 0,
+        "forks": 0
       },
-      "quality": 95,
-      "score": 71,
-      "freshness": 84,
-      "popularity": 47,
+      "quality": 84,
+      "score": 69,
+      "freshness": 100,
+      "popularity": 31,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
-        "tagCount": 7,
+        "tagCount": 1,
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 12
+      "rank": 26
     },
     {
-      "id": "hf:llmlatency/llm-latency-tracker",
-      "title": "Llm Latency Tracker",
-      "fullName": "llmlatency/llm-latency-tracker",
-      "description": "LLM Latency Tracker Independent, continuously measured latency and availability for AI inference API providers, aggregated by day. Covers 46 providers across 4 regions (ap-tokyo, eu-hetzner, sa-east, us-central), buil…",
+      "id": "hf:themohal/saraiki-llm-bench",
+      "title": "Saraiki Llm Bench",
+      "fullName": "themohal/saraiki-llm-bench",
+      "description": "Saraiki LLM Benchmark v1.0 Seven tasks for evaluating language models in Saraiki (Jataki/Multani, Shahmukhi script). Evaluation only: do not train on this dataset. Multiple-choice and math configs have a small dev spl…",
       "source": "Hugging Face",
       "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/llmlatency/llm-latency-tracker",
-      "updatedAt": "2026-10-25T07:51:32.000Z",
+      "url": "https://huggingface.co/datasets/themohal/saraiki-llm-bench",
+      "updatedAt": "2026-10-26T00:02:44.000Z",
+      "license": "cc-by-sa-4.0",
+      "format": "Dataset",
+      "tags": [
+        "question answering",
+        "multiple choice",
+        "text generation",
+        "text",
+        "language:skr",
+        "license:cc by sa 4.0"
+      ],
+      "metrics": {
+        "downloads": 322,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 96,
+      "score": 69,
+      "freshness": 99,
+      "popularity": 25,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 4,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 27
+    },
+    {
+      "id": "hf:AmigaMeow/llm-leaderboard",
+      "title": "Llm Leaderboard",
+      "fullName": "AmigaMeow/llm-leaderboard",
+      "description": "LLM Leaderboard (Arena x API pricing) Daily-updated LLM leaderboard combining LMArena human-preference (Arena) scores with OpenRouter public pricing, so you can answer \"what should I use at $X?\" — a question neither s…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/AmigaMeow/llm-leaderboard",
+      "updatedAt": "2026-10-25T12:39:03.000Z",
       "license": "cc-by-4.0",
       "format": "Dataset",
       "tags": [
         "tabular",
         "text",
         "language:en",
+        "language:zh",
         "license:cc by 4.0",
-        "size categories:10K<n<100K",
-        "format:csv"
+        "size categories:n<1K"
       ],
       "metrics": {
-        "downloads": 570,
-        "likes": 2,
+        "downloads": 951,
+        "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 88,
-      "score": 70,
-      "freshness": 100,
-      "popularity": 29,
+      "score": 69,
+      "freshness": 98,
+      "popularity": 30,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -541,7 +1103,7 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "hf:GloriaaaM/LLM-Agent-Harness-Survey",
@@ -563,14 +1125,14 @@
         "library:datasets"
       ],
       "metrics": {
-        "downloads": 667,
+        "downloads": 682,
         "likes": 11,
         "stars": 0,
         "forks": 0
       },
       "quality": 84,
-      "score": 70,
-      "freshness": 100,
+      "score": 69,
+      "freshness": 98,
       "popularity": 33,
       "signals": {
         "hasDescription": true,
@@ -579,7 +1141,7 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "hf:hoangphu7122002ai/llm-serving-bench-runs",
@@ -597,14 +1159,14 @@
         "region:us"
       ],
       "metrics": {
-        "downloads": 4068,
+        "downloads": 4110,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 80,
-      "score": 70,
-      "freshness": 98,
+      "score": 69,
+      "freshness": 96,
       "popularity": 36,
       "signals": {
         "hasDescription": true,
@@ -613,7 +1175,7 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 15
+      "rank": 30
     },
     {
       "id": "hf:hashmortar/multimodal-annual-reports",
@@ -635,15 +1197,15 @@
         "text"
       ],
       "metrics": {
-        "downloads": 553,
+        "downloads": 562,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 100,
-      "score": 70,
-      "freshness": 97,
-      "popularity": 27,
+      "score": 69,
+      "freshness": 95,
+      "popularity": 28,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -651,311 +1213,7 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 16
-    },
-    {
-      "id": "hf:kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
-      "title": "Multimodal Tip Of The Tongue Retrieval For Scientific Documents",
-      "fullName": "kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
-      "description": "Open-Source Scientific Documents This repository contains the scientific-paper corpus and generated artifacts for Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers. It brings together source PDFs, extracted…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/kasys/multimodal-tip-of-the-tongue-retrieval-for-scientific-documents",
-      "updatedAt": "2026-10-23T05:08:08.000Z",
-      "license": "mit",
-      "format": "Dataset",
-      "tags": [
-        "visual document retrieval",
-        "text ranking",
-        "text retrieval",
-        "document",
-        "language:en",
-        "license:mit"
-      ],
-      "metrics": {
-        "downloads": 1098,
-        "likes": 1,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 96,
-      "score": 70,
-      "freshness": 96,
-      "popularity": 32,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 4,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 17
-    },
-    {
-      "id": "hf:themohal/saraiki-llm-bench",
-      "title": "Saraiki Llm Bench",
-      "fullName": "themohal/saraiki-llm-bench",
-      "description": "Saraiki LLM Benchmark v1.0 Seven tasks for evaluating language models in Saraiki (Jataki/Multani, Shahmukhi script). Evaluation only: do not train on this dataset. Multiple-choice and math configs have a small dev spl…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/themohal/saraiki-llm-bench",
-      "updatedAt": "2026-10-24T23:28:04.000Z",
-      "license": "cc-by-sa-4.0",
-      "format": "Dataset",
-      "tags": [
-        "question answering",
-        "multiple choice",
-        "text generation",
-        "text",
-        "language:skr",
-        "license:cc by sa 4.0"
-      ],
-      "metrics": {
-        "downloads": 282,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 96,
-      "score": 69,
-      "freshness": 99,
-      "popularity": 25,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 4,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 18
-    },
-    {
-      "id": "hf:AmigaMeow/llm-leaderboard",
-      "title": "Llm Leaderboard",
-      "fullName": "AmigaMeow/llm-leaderboard",
-      "description": "LLM Leaderboard (Arena x API pricing) Daily-updated LLM leaderboard combining LMArena human-preference (Arena) scores with OpenRouter public pricing, so you can answer \"what should I use at $X?\" — a question neither s…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/AmigaMeow/llm-leaderboard",
-      "updatedAt": "2026-10-24T12:06:19.000Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [
-        "tabular",
-        "text",
-        "language:en",
-        "language:zh",
-        "license:cc by 4.0",
-        "size categories:n<1K"
-      ],
-      "metrics": {
-        "downloads": 927,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 88,
-      "score": 69,
-      "freshness": 98,
-      "popularity": 30,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 2,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 19
-    },
-    {
-      "id": "github:CornellNLP/ConvoKit",
-      "title": "ConvoKit",
-      "fullName": "CornellNLP/ConvoKit",
-      "description": "ConvoKit is a toolkit for extracting conversational features and analyzing social phenomena in conversations. It includes several large conversational datasets along with scripts exemplifying the use of the toolkit on…",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/CornellNLP/ConvoKit",
-      "updatedAt": "2026-10-16T20:24:26.000Z",
-      "license": "MIT",
-      "format": "Jupyter Notebook repository",
-      "tags": [
-        "computational social science",
-        "conversational ai",
-        "conversational analysis",
-        "conversations",
-        "dataset",
-        "dialogs"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 651,
-        "stars": 651,
-        "forks": 142
-      },
-      "quality": 95,
-      "score": 69,
-      "freshness": 86,
-      "popularity": 40,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 9,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 20
-    },
-    {
-      "id": "hf:themohal/saraiki-llm-dataset",
-      "title": "Saraiki Llm Dataset",
-      "fullName": "themohal/saraiki-llm-dataset",
-      "description": "Saraiki (سرائیکی) is a major language of Pakistan with a rich linguistic and cultural heritage. Despite its large speaker community, Saraiki remains a low-resource language in NLP, with limited high-quality datasets a…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/themohal/saraiki-llm-dataset",
-      "updatedAt": "2026-10-25T07:07:35.000Z",
-      "license": "cc-by-nc-4.0",
-      "format": "Dataset",
-      "tags": [
-        "text generation",
-        "mask generation",
-        "text",
-        "language:skr",
-        "license:cc by nc 4.0",
-        "size categories:100K<n<1M"
-      ],
-      "metrics": {
-        "downloads": 311,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 92,
-      "score": 68,
-      "freshness": 100,
-      "popularity": 25,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 3,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 21
-    },
-    {
-      "id": "hf:90879c/llm-collaboration-trustbench",
-      "title": "Llm Collaboration Trustbench",
-      "fullName": "90879c/llm-collaboration-trustbench",
-      "description": "LLM Collaboration TrustBench Benchmark and evaluation code for Can LLMs Trust Appropriately? Evaluating Calibrated Reliance on Imperfect Partners. The benchmark examines whether language models turn evidence about imp…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/90879c/llm-collaboration-trustbench",
-      "updatedAt": "2026-10-25T06:29:50.000Z",
-      "license": "mit",
-      "format": "Dataset",
-      "tags": [
-        "text",
-        "language:en",
-        "license:mit",
-        "size categories:n<1K",
-        "format:json",
-        "library:datasets"
-      ],
-      "metrics": {
-        "downloads": 517,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 84,
-      "score": 68,
-      "freshness": 100,
-      "popularity": 27,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 1,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 22
-    },
-    {
-      "id": "hf:apipriceindex/llm-api-prices",
-      "title": "Llm Api Prices",
-      "fullName": "apipriceindex/llm-api-prices",
-      "description": "LLM API Price Index — daily snapshot Live, verified LLM API prices from apipriceindex.com. 910 tracked endpoints, index as of 2026-10-24T12:01:14Z. Updated daily by an automated sync (source). Every price is read from…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/apipriceindex/llm-api-prices",
-      "updatedAt": "2026-10-24T12:09:13.000Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [
-        "language:en",
-        "license:cc by 4.0",
-        "size categories:n<1K",
-        "region:us",
-        "llm",
-        "api"
-      ],
-      "metrics": {
-        "downloads": 1382,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 80,
-      "score": 68,
-      "freshness": 98,
-      "popularity": 31,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 0,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 23
-    },
-    {
-      "id": "hf:alvaroluceroo/llm-api-pricing",
-      "title": "Llm Api Pricing",
-      "fullName": "alvaroluceroo/llm-api-pricing",
-      "description": "LLM API pricing dataset Prices of the current large language model APIs, as published by their makers, with the day each price was last verified and the maker's page it was read from, plus a record of every change to…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/alvaroluceroo/llm-api-pricing",
-      "updatedAt": "2026-10-23T12:49:34.000Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [
-        "other",
-        "tabular",
-        "text",
-        "language:en",
-        "license:cc by 4.0",
-        "size categories:n<1K"
-      ],
-      "metrics": {
-        "downloads": 368,
-        "likes": 1,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 92,
-      "score": 68,
-      "freshness": 97,
-      "popularity": 27,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 3,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 24
+      "rank": 31
     },
     {
       "id": "hf:MC7ever/all-in-one-llm-corpus",
@@ -977,15 +1235,15 @@
         "summarization"
       ],
       "metrics": {
-        "downloads": 189,
+        "downloads": 321,
         "likes": 2,
         "stars": 0,
         "forks": 0
       },
       "quality": 100,
-      "score": 68,
-      "freshness": 96,
-      "popularity": 25,
+      "score": 69,
+      "freshness": 95,
+      "popularity": 27,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -993,33 +1251,113 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 25
+      "rank": 32
     },
     {
-      "id": "hf:dlouapre/foundations-of-llms",
-      "title": "Foundations Of Llms",
-      "fullName": "dlouapre/foundations-of-llms",
-      "description": "Foundations of Large Language Models: list of chapters series.json lists the chapters of the blog series \"Foundations of Large Language Models: Learning by Doing\", by David Louapre. Each post of the series reads this…",
+      "id": "hf:themohal/saraiki-llm-dataset",
+      "title": "Saraiki Llm Dataset",
+      "fullName": "themohal/saraiki-llm-dataset",
+      "description": "Saraiki (سرائیکی) is a major language of Pakistan with a rich linguistic and cultural heritage. Despite its large speaker community, Saraiki remains a low-resource language in NLP, with limited high-quality datasets a…",
       "source": "Hugging Face",
       "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/dlouapre/foundations-of-llms",
-      "updatedAt": "2026-10-21T13:40:36.000Z",
+      "url": "https://huggingface.co/datasets/themohal/saraiki-llm-dataset",
+      "updatedAt": "2026-10-26T07:10:57.000Z",
+      "license": "cc-by-nc-4.0",
+      "format": "Dataset",
+      "tags": [
+        "text generation",
+        "mask generation",
+        "text",
+        "language:skr",
+        "license:cc by nc 4.0",
+        "size categories:100K<n<1M"
+      ],
+      "metrics": {
+        "downloads": 323,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 92,
+      "score": 68,
+      "freshness": 100,
+      "popularity": 25,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 3,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 33
+    },
+    {
+      "id": "hf:uplinkswitch/llm-api-pricing",
+      "title": "Llm Api Pricing",
+      "fullName": "uplinkswitch/llm-api-pricing",
+      "description": "LLM API Pricing Per-token API prices for 258 chat models and per-image, per-second and per-generation prices for 119 image, video, audio and 3D models. Each row puts the model developer's own list price next to the pr…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/uplinkswitch/llm-api-pricing",
+      "updatedAt": "2026-10-26T00:18:00.000Z",
       "license": "cc-by-4.0",
       "format": "Dataset",
       "tags": [
+        "tabular",
+        "text",
+        "language:en",
         "license:cc by 4.0",
-        "region:us"
+        "size categories:1K<n<10K",
+        "format:csv"
       ],
       "metrics": {
-        "downloads": 2894,
-        "likes": 1,
+        "downloads": 355,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 88,
+      "score": 68,
+      "freshness": 99,
+      "popularity": 26,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 2,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 34
+    },
+    {
+      "id": "hf:apipriceindex/llm-api-prices",
+      "title": "Llm Api Prices",
+      "fullName": "apipriceindex/llm-api-prices",
+      "description": "LLM API Price Index — daily snapshot Live, verified LLM API prices from apipriceindex.com. 911 tracked endpoints, index as of 2026-10-25T07:15:04Z. Updated daily by an automated sync (source). Every price is read from…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/apipriceindex/llm-api-prices",
+      "updatedAt": "2026-10-25T12:41:28.000Z",
+      "license": "cc-by-4.0",
+      "format": "Dataset",
+      "tags": [
+        "language:en",
+        "license:cc by 4.0",
+        "size categories:n<1K",
+        "region:us",
+        "llm",
+        "api"
+      ],
+      "metrics": {
+        "downloads": 1331,
+        "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 80,
       "score": 68,
-      "freshness": 93,
-      "popularity": 36,
+      "freshness": 98,
+      "popularity": 31,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -1027,7 +1365,83 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 26
+      "rank": 35
+    },
+    {
+      "id": "hf:dvcorg/test-datachain-llm-eval",
+      "title": "Test Datachain Llm Eval",
+      "fullName": "dvcorg/test-datachain-llm-eval",
+      "description": "Hugging Face Hub 上的 AI 数据集，建议打开数据卡查看字段、许可和使用方式。",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/dvcorg/test-datachain-llm-eval",
+      "updatedAt": "2026-10-26T09:28:04.000Z",
+      "license": "mit",
+      "format": "Dataset",
+      "tags": [
+        "text",
+        "license:mit",
+        "size categories:n<1K",
+        "format:parquet",
+        "library:datasets",
+        "library:pandas"
+      ],
+      "metrics": {
+        "downloads": 2236,
+        "likes": 1,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 64,
+      "score": 67,
+      "freshness": 100,
+      "popularity": 35,
+      "signals": {
+        "hasDescription": false,
+        "hasLicense": true,
+        "tagCount": 1,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 36
+    },
+    {
+      "id": "hf:llm-anima/drawhime-assets",
+      "title": "Drawhime Assets",
+      "fullName": "llm-anima/drawhime-assets",
+      "description": "Hugging Face Hub 上的 AI 数据集，建议打开数据卡查看字段、许可和使用方式。",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/llm-anima/drawhime-assets",
+      "updatedAt": "2026-10-26T05:27:20.000Z",
+      "license": "未标注",
+      "format": "Dataset",
+      "tags": [
+        "image",
+        "text",
+        "size categories:n<1K",
+        "format:text",
+        "library:datasets",
+        "library:mlcroissant"
+      ],
+      "metrics": {
+        "downloads": 8362,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 52,
+      "score": 67,
+      "freshness": 100,
+      "popularity": 39,
+      "signals": {
+        "hasDescription": false,
+        "hasLicense": false,
+        "tagCount": 2,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 37
     },
     {
       "id": "hf:modelpricewatch/llm-token-price-history",
@@ -1049,14 +1463,14 @@
         "llm"
       ],
       "metrics": {
-        "downloads": 392,
+        "downloads": 373,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 84,
       "score": 67,
-      "freshness": 100,
+      "freshness": 98,
       "popularity": 26,
       "signals": {
         "hasDescription": true,
@@ -1065,578 +1479,182 @@
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 27
+      "rank": 38
     },
     {
-      "id": "hf:llm-anima/drawhime-assets",
-      "title": "Drawhime Assets",
-      "fullName": "llm-anima/drawhime-assets",
-      "description": "Hugging Face Hub 上的 AI 数据集，建议打开数据卡查看字段、许可和使用方式。",
+      "id": "hf:90879c/llm-collaboration-trustbench",
+      "title": "Llm Collaboration Trustbench",
+      "fullName": "90879c/llm-collaboration-trustbench",
+      "description": "LLM Collaboration TrustBench Benchmark and evaluation code for Can LLMs Trust Appropriately? Evaluating Calibrated Reliance on Imperfect Partners. The benchmark examines whether language models turn evidence about imp…",
       "source": "Hugging Face",
       "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/llm-anima/drawhime-assets",
-      "updatedAt": "2026-10-25T03:51:58.000Z",
-      "license": "未标注",
-      "format": "Dataset",
-      "tags": [
-        "image",
-        "text",
-        "size categories:n<1K",
-        "format:text",
-        "library:datasets",
-        "library:mlcroissant"
-      ],
-      "metrics": {
-        "downloads": 8036,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 52,
-      "score": 67,
-      "freshness": 100,
-      "popularity": 39,
-      "signals": {
-        "hasDescription": false,
-        "hasLicense": false,
-        "tagCount": 2,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 28
-    },
-    {
-      "id": "hf:dvcorg/test-datachain-llm-eval",
-      "title": "Test Datachain Llm Eval",
-      "fullName": "dvcorg/test-datachain-llm-eval",
-      "description": "Hugging Face Hub 上的 AI 数据集，建议打开数据卡查看字段、许可和使用方式。",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/dvcorg/test-datachain-llm-eval",
-      "updatedAt": "2026-10-25T01:04:50.000Z",
+      "url": "https://huggingface.co/datasets/90879c/llm-collaboration-trustbench",
+      "updatedAt": "2026-10-25T06:29:50.000Z",
       "license": "mit",
       "format": "Dataset",
       "tags": [
         "text",
+        "language:en",
         "license:mit",
         "size categories:n<1K",
-        "format:parquet",
-        "library:datasets",
-        "library:pandas"
+        "format:json",
+        "library:datasets"
       ],
       "metrics": {
-        "downloads": 2139,
-        "likes": 1,
+        "downloads": 560,
+        "likes": 0,
         "stars": 0,
         "forks": 0
       },
-      "quality": 64,
+      "quality": 84,
       "score": 67,
-      "freshness": 99,
-      "popularity": 35,
+      "freshness": 98,
+      "popularity": 27,
       "signals": {
-        "hasDescription": false,
+        "hasDescription": true,
         "hasLicense": true,
         "tagCount": 1,
         "isFork": false,
         "isDirectDataset": true
       },
-      "rank": 29
+      "rank": 39
     },
     {
-      "id": "hf:uplinkswitch/llm-api-pricing",
+      "id": "hf:alvaroluceroo/llm-api-pricing",
       "title": "Llm Api Pricing",
-      "fullName": "uplinkswitch/llm-api-pricing",
-      "description": "LLM API Pricing Per-token API prices for 257 chat models and per-image, per-second and per-generation prices for 119 image, video, audio and 3D models. Each row puts the model developer's own list price next to the pr…",
+      "fullName": "alvaroluceroo/llm-api-pricing",
+      "description": "LLM API pricing dataset Prices of the current large language model APIs, as published by their makers, with the day each price was last verified and the maker's page it was read from, plus a record of every change to…",
       "source": "Hugging Face",
       "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/uplinkswitch/llm-api-pricing",
-      "updatedAt": "2026-10-25T00:17:58.000Z",
+      "url": "https://huggingface.co/datasets/alvaroluceroo/llm-api-pricing",
+      "updatedAt": "2026-10-23T12:49:34.000Z",
       "license": "cc-by-4.0",
       "format": "Dataset",
       "tags": [
+        "other",
         "tabular",
         "text",
         "language:en",
         "license:cc by 4.0",
-        "size categories:1K<n<10K",
-        "format:csv"
+        "size categories:n<1K"
       ],
       "metrics": {
-        "downloads": 290,
+        "downloads": 383,
+        "likes": 1,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 92,
+      "score": 67,
+      "freshness": 95,
+      "popularity": 27,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 3,
+        "isFork": false,
+        "isDirectDataset": true
+      },
+      "rank": 40
+    },
+    {
+      "id": "hf:avishkararjan/llm-reward-gen-quad-dpo-acceptance",
+      "title": "Llm Reward Gen Quad Dpo Acceptance",
+      "fullName": "avishkararjan/llm-reward-gen-quad-dpo-acceptance",
+      "description": "llm-reward-gen-quad-dpo-acceptance DPO preference dataset for fine-tuning Qwen2.5-Coder-7B-Instruct to generate quadcopter reward functions with a high validator acceptance rate (passes ast_validator + diversity_check…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/avishkararjan/llm-reward-gen-quad-dpo-acceptance",
+      "updatedAt": "2026-10-26T08:20:05.000Z",
+      "license": "mit",
+      "format": "Dataset",
+      "tags": [
+        "text generation",
+        "text",
+        "language:en",
+        "license:mit",
+        "size categories:1K<n<10K",
+        "format:json"
+      ],
+      "metrics": {
+        "downloads": 126,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
       "quality": 88,
-      "score": 67,
-      "freshness": 99,
-      "popularity": 25,
+      "score": 66,
+      "freshness": 100,
+      "popularity": 21,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
         "tagCount": 2,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 30
-    },
-    {
-      "id": "hf:SimpleJev/JevAny-Multimodal-agentic-Public",
-      "title": "JevAny Multimodal Agentic Public",
-      "fullName": "SimpleJev/JevAny-Multimodal-agentic-Public",
-      "description": "JevAny-Multimodal-agentic-Public v0.4: Jev Models as Multimodal Agentic Judges Formerly JevJudge-Public (renamed on 2026-10-17). Files, item ids, the canary and the v0.4 tag are unchanged. Evaluation and research only…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/SimpleJev/JevAny-Multimodal-agentic-Public",
-      "updatedAt": "2026-10-17T18:28:53.000Z",
-      "license": "other",
-      "format": "Dataset",
-      "tags": [
-        "image text to text",
-        "video text to text",
-        "text classification",
-        "image",
-        "tabular",
-        "text"
-      ],
-      "metrics": {
-        "downloads": 1174,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 100,
-      "score": 67,
-      "freshness": 87,
-      "popularity": 31,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 6,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 31
-    },
-    {
-      "id": "hf:guicybercode/llm-injection-pilot",
-      "title": "Llm Injection Pilot",
-      "fullName": "guicybercode/llm-injection-pilot",
-      "description": "Piloto de prompt injection em LLMs pequenos (CPU, llama.cpp) Quem roda um LLM pequeno localmente raramente sabe com que frequência ele obedece a uma instrução injetada num documento ou na mensagem do usuário. Medi iss…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/guicybercode/llm-injection-pilot",
-      "updatedAt": "2026-10-22T13:56:23.000Z",
-      "license": "mit",
-      "format": "Dataset",
-      "tags": [
-        "text generation",
-        "text classification",
-        "tabular",
-        "text",
-        "language:pt",
-        "language:en"
-      ],
-      "metrics": {
-        "downloads": 181,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 96,
-      "score": 66,
-      "freshness": 95,
-      "popularity": 23,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 4,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 32
-    },
-    {
-      "id": "hf:llm-jp/llm-jp-chatbot-arena-conversations",
-      "title": "Llm Jp Chatbot Arena Conversations",
-      "fullName": "llm-jp/llm-jp-chatbot-arena-conversations",
-      "description": "LLM-jp Chatbot Arena Conversations Dataset This dataset contains 2,541 conversations with pairwise human preferences, most of which are in Japanese. The data was collected through the LLM-jp Chatbot Arena, where users…",
-      "source": "Hugging Face",
-      "sourceKey": "huggingface",
-      "url": "https://huggingface.co/datasets/llm-jp/llm-jp-chatbot-arena-conversations",
-      "updatedAt": "2026-10-21T09:03:56.000Z",
-      "license": "cc",
-      "format": "Dataset",
-      "tags": [
-        "question answering",
-        "text generation",
-        "tabular",
-        "text",
-        "language:ja",
-        "license:cc"
-      ],
-      "metrics": {
-        "downloads": 116,
-        "likes": 10,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 96,
-      "score": 66,
-      "freshness": 93,
-      "popularity": 25,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 4,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 33
-    },
-    {
-      "id": "zenodo:23638790",
-      "title": "Rebuilding Big Health Data: An Account of Seventy-Five Studies",
-      "fullName": "zenodo:23638790",
-      "description": "<div class=\"page\"> <div class=\"layoutArea\"> <div class=\"column\"> <p>Abstract:&nbsp;</p> <p class=\"MsoNormal\">The uncritical application of legacy statistical machinery to modern Big Health Data has driven a proliferat…",
-      "source": "Zenodo",
-      "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638790",
-      "updatedAt": "2026-10-25T09:35:56.315Z",
-      "license": "cc-by-4.0",
-      "format": "Preprint",
-      "tags": [],
-      "metrics": {
-        "downloads": 18,
-        "likes": 18,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 75,
-      "score": 63,
-      "freshness": 100,
-      "popularity": 18,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 0,
-        "isFork": false,
-        "isDirectDataset": true,
-        "isAiRelevant": true
-      },
-      "rank": 34
-    },
-    {
-      "id": "zenodo:23638448",
-      "title": "GateStagger: base implementation and confirmation-budget experiments for construction submittal resource levelling",
-      "fullName": "zenodo:23638448",
-      "description": "<p>GateStagger dataset release 7.0.0: base implementation and complete confirmation-budget experiments for construction submittal resource levelling. This version replaces legacy journal-specific base filenames with n…",
-      "source": "Zenodo",
-      "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638448",
-      "updatedAt": "2026-10-25T09:44:37.210Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [],
-      "metrics": {
-        "downloads": 16,
-        "likes": 16,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 75,
-      "score": 62,
-      "freshness": 100,
-      "popularity": 17,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 0,
-        "isFork": false,
-        "isDirectDataset": true,
-        "isAiRelevant": true
-      },
-      "rank": 35
-    },
-    {
-      "id": "github:mlcommons/croissant",
-      "title": "croissant",
-      "fullName": "mlcommons/croissant",
-      "description": "Croissant is a high-level format for machine learning datasets that brings together four rich layers.",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/mlcommons/croissant",
-      "updatedAt": "2026-10-05T13:36:13.000Z",
-      "license": "Apache-2.0",
-      "format": "HTML repository",
-      "tags": [
-        "datasets",
-        "json ld",
-        "machine learning",
-        "schema org",
-        "HTML"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 916,
-        "stars": 916,
-        "forks": 128
-      },
-      "quality": 91,
-      "score": 62,
-      "freshness": 70,
-      "popularity": 42,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 4,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 36
-    },
-    {
-      "id": "github:techascent/tech.ml.dataset",
-      "title": "tech.ml.dataset",
-      "fullName": "techascent/tech.ml.dataset",
-      "description": "A Clojure high performance data processing system",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/techascent/tech.ml.dataset",
-      "updatedAt": "2026-10-02T20:31:11.000Z",
-      "license": "EPL-1.0",
-      "format": "Clojure repository",
-      "tags": [
-        "clojure",
-        "csv",
-        "dataframe",
-        "datascience",
-        "dataset",
-        "etl pipeline"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 763,
-        "stars": 763,
-        "forks": 34
-      },
-      "quality": 95,
-      "score": 61,
-      "freshness": 66,
-      "popularity": 39,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 9,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 37
-    },
-    {
-      "id": "github:yueliu1999/Awesome-Deep-Graph-Clustering",
-      "title": "Awesome-Deep-Graph-Clustering",
-      "fullName": "yueliu1999/Awesome-Deep-Graph-Clustering",
-      "description": "[IEEE T-KDE 2026] Awesome Deep Graph Clustering is a collection of SOTA, novel deep graph clustering methods (papers, codes, and datasets).",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering",
-      "updatedAt": "2026-09-28T03:32:07.000Z",
-      "license": "MIT",
-      "format": "Python repository",
-      "tags": [
-        "clustering",
-        "data mining",
-        "data mining algorithms",
-        "deep clustering",
-        "deep learning",
-        "gcn"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 1024,
-        "stars": 1024,
-        "forks": 156
-      },
-      "quality": 95,
-      "score": 60,
-      "freshness": 61,
-      "popularity": 43,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 15,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 38
-    },
-    {
-      "id": "zenodo:23638704",
-      "title": "A protocol-fixed, label-budget-resolved benchmark resource of electrocardiogram foundation model embeddings on PTB-XL",
-      "fullName": "zenodo:23638704",
-      "description": "This deposit accompanies the Data Descriptor 'A protocol-fixed, label-budget-resolved benchmark resource of electrocardiogram foundation model embeddings on PTB-XL'. It provides frozen embeddings for four open electro…",
-      "source": "Zenodo",
-      "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638704",
-      "updatedAt": "2026-10-25T09:31:45.111Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [
-        "electrocardiogram foundation model",
-        "transferability",
-        "label efficiency",
-        "few shot learning",
-        "PTB XL",
-        "representation similarity"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 95,
-      "score": 59,
-      "freshness": 100,
-      "popularity": 0,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 8,
-        "isFork": false,
-        "isDirectDataset": true,
-        "isAiRelevant": true
-      },
-      "rank": 39
-    },
-    {
-      "id": "zenodo:23637795",
-      "title": "IMPROVING THE METHODOLOGY FOR DEVELOPING FUTURE TEACHERS' PROFESSIONAL COMPETENCE THROUGH GENERATIVE AI-SUPPORTED LESSON DESIGN: A METHODICAL MODEL",
-      "fullName": "zenodo:23637795",
-      "description": "<p class=\"MsoBodyText\">&nbsp;Generative artificial intelligence (GenAI) is rapidly changing how lessons are planned and teaching materials are prepared. For teacher education this creates both an opportunity and a ris…",
-      "source": "Zenodo",
-      "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23637795",
-      "updatedAt": "2026-10-25T08:40:50.724Z",
-      "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [
-        "future teachers, professional competence, generative artificial intelligence, lesson planning, methodical model, microteaching, reflective practice, innovative technologies, teacher education."
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 0,
-        "stars": 0,
-        "forks": 0
-      },
-      "quality": 79,
-      "score": 56,
-      "freshness": 100,
-      "popularity": 0,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 1,
-        "isFork": false,
-        "isDirectDataset": true,
-        "isAiRelevant": true
-      },
-      "rank": 40
-    },
-    {
-      "id": "github:facebookincubator/nimble",
-      "title": "nimble",
-      "fullName": "facebookincubator/nimble",
-      "description": "New and extensible file format for storage of large columnar datasets.",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/facebookincubator/nimble",
-      "updatedAt": "2026-09-21T18:48:04.000Z",
-      "license": "Apache-2.0",
-      "format": "C++ repository",
-      "tags": [
-        "columnar",
-        "compression",
-        "data analytics",
-        "data systems",
-        "database",
-        "datasets"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 741,
-        "stars": 741,
-        "forks": 97
-      },
-      "quality": 95,
-      "score": 56,
-      "freshness": 54,
-      "popularity": 40,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 13,
         "isFork": false,
         "isDirectDataset": true
       },
       "rank": 41
     },
     {
-      "id": "zenodo:23638899",
-      "title": "Dataset Questionnaire Artificial Intelligence, Organizational Ambidexterity, Dynamic Capabilities, and MSMEs Performance",
-      "fullName": "zenodo:23638899",
-      "description": "<p>This dataset contains respondents' answers Artificial Intelligence, Organizational Ambidexterity, Dynamic Capabilities, and MSMEs Performance</p>",
-      "source": "Zenodo",
-      "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638899",
-      "updatedAt": "2026-10-25T09:46:31.278Z",
-      "license": "cc-by-4.0",
+      "id": "hf:sida/llmdbg",
+      "title": "Llmdbg",
+      "fullName": "sida/llmdbg",
+      "description": "llmdbg analysis artifacts Versioned analysis data used by llmdbg. Method references: Verbalizable Representations Form a Global Workspace in Language Models (J-Lens) R-Lens: Making J-Lens More Faithful on Early Layers…",
+      "source": "Hugging Face",
+      "sourceKey": "huggingface",
+      "url": "https://huggingface.co/datasets/sida/llmdbg",
+      "updatedAt": "2026-10-25T23:49:27.000Z",
+      "license": "mit",
       "format": "Dataset",
-      "tags": [],
+      "tags": [
+        "license:mit",
+        "region:us",
+        "interpretability",
+        "mechanistic interpretability",
+        "r lens",
+        "jacobian lens"
+      ],
       "metrics": {
-        "downloads": 0,
+        "downloads": 364,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
-      "quality": 75,
-      "score": 55,
-      "freshness": 100,
-      "popularity": 0,
+      "quality": 80,
+      "score": 66,
+      "freshness": 99,
+      "popularity": 26,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
         "tagCount": 0,
         "isFork": false,
-        "isDirectDataset": true,
-        "isAiRelevant": true
+        "isDirectDataset": true
       },
       "rank": 42
     },
     {
-      "id": "zenodo:23638588",
-      "title": "Deep Learning-Based Cu-Au Prospectivity Mapping in the Quesnel Terrane, British Columbia, Canada",
-      "fullName": "zenodo:23638588",
-      "description": "<p>This repository contains MATLAB source codes for Deep Neural Network (DNN) and Deep Belief Network (DBN) models, the training dataset, and a representative subset of the prediction data used for porphyry Cu-Au pros…",
+      "id": "zenodo:23663086",
+      "title": "Replication Package of the Paper: \"Self-Admitted Technical Debt in AI-Intensive Cyber-Physical Systems: An Empirical Study\"",
+      "fullName": "zenodo:23663086",
+      "description": "<h2>Contents</h2> <table> <tbody> <tr> <th>Folder</th> <th>Contents</th> </tr> </tbody> <tbody> <tr> <td><code>data/discovery/</code></td> <td>Repository metadata and discovery scores for 500 projects.</td> </tr> <tr>…",
       "source": "Zenodo",
       "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638588",
-      "updatedAt": "2026-10-25T09:30:58.252Z",
+      "url": "https://zenodo.org/records/23663086",
+      "updatedAt": "2026-10-26T10:33:39.371Z",
       "license": "cc-by-4.0",
       "format": "Dataset",
       "tags": [],
       "metrics": {
-        "downloads": 0,
-        "likes": 0,
+        "downloads": 1,
+        "likes": 1,
         "stars": 0,
         "forks": 0
       },
       "quality": 75,
-      "score": 55,
+      "score": 57,
       "freshness": 100,
-      "popularity": 0,
+      "popularity": 4,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
@@ -1648,31 +1666,33 @@
       "rank": 43
     },
     {
-      "id": "zenodo:23638226",
-      "title": "Replication package for: Explaining the Decline of Natural Wealth per Capita: A Three-Pillar ESG Analysis of the World Bank Wealth Accounts",
-      "fullName": "zenodo:23638226",
-      "description": "<p>This package contains the data and code needed to reproduce every table of results in the article &ldquo;Explaining the Decline of Natural Wealth per Capita: A Three-Pillar ESG Analysis of the World Bank Wealth Acc…",
+      "id": "zenodo:23663518",
+      "title": "Developing an Interactive Physics Simulation System to Support the Teaching of Artificial Intelligence for Upper Secondary School Students",
+      "fullName": "zenodo:23663518",
+      "description": "<h3 class=\"mt-0\">Abstract:</h3> <div class=\"highlight-box mt-2 mb-3\"> <p>The integration of artificial intelligence (AI) content into school science subjects remains limited, particularly in developing countries. This…",
       "source": "Zenodo",
       "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638226",
-      "updatedAt": "2026-10-25T09:04:36.258Z",
+      "url": "https://zenodo.org/records/23663518",
+      "updatedAt": "2026-10-26T10:53:25.347Z",
       "license": "cc-by-4.0",
-      "format": "Dataset",
-      "tags": [],
+      "format": "Journal article",
+      "tags": [
+        "AI competency, interactive simulation, physics education, machine learning, secondary students"
+      ],
       "metrics": {
         "downloads": 0,
         "likes": 0,
         "stars": 0,
         "forks": 0
       },
-      "quality": 75,
-      "score": 55,
+      "quality": 79,
+      "score": 56,
       "freshness": 100,
       "popularity": 0,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
-        "tagCount": 0,
+        "tagCount": 1,
         "isFork": false,
         "isDirectDataset": true,
         "isAiRelevant": true
@@ -1680,16 +1700,50 @@
       "rank": 44
     },
     {
-      "id": "zenodo:23638054",
-      "title": "Reproduction dataset for \"Running to Verify: Red Queen Perspective in LLM-Based Innovation Screening\"",
-      "fullName": "zenodo:23638054",
-      "description": "<pre>Data from a computational experiment on reciprocal instruction updating at an LLM-based eligibility gate. A claim-maker discloses three of five true attributes of a fictional proposal, and an auditor may verify o…",
+      "id": "zenodo:23663017",
+      "title": "Teledentistry: Bringing Dental Care Closer to Every Home",
+      "fullName": "zenodo:23663017",
+      "description": "<div><strong>Abstract</strong></div> <div>Teledentistry represents a transformative integration of telecommunication technologies into dental practice, enabling the remote exchange of clinical data, high-resolution im…",
       "source": "Zenodo",
       "sourceKey": "zenodo",
-      "url": "https://zenodo.org/records/23638054",
-      "updatedAt": "2026-10-25T08:52:12.086Z",
+      "url": "https://zenodo.org/records/23663017",
+      "updatedAt": "2026-10-26T10:33:22.771Z",
       "license": "cc-by-4.0",
-      "format": "Dataset",
+      "format": "Journal article",
+      "tags": [
+        "Teledentistry, digital dentistry, remote onsultation, telehealth in oral care, virtual diagnosis, health informatics, AI in dentistry, 5G telecommunications, blockchain security, oral health equity."
+      ],
+      "metrics": {
+        "downloads": 0,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 79,
+      "score": 56,
+      "freshness": 100,
+      "popularity": 0,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 1,
+        "isFork": false,
+        "isDirectDataset": true,
+        "isAiRelevant": true
+      },
+      "rank": 45
+    },
+    {
+      "id": "zenodo:23663744",
+      "title": "AI-Driven Innovations and Multidisciplinary Perspectives: Research, Innovation and Society in the Digital Era",
+      "fullName": "zenodo:23663744",
+      "description": "<p class=\"pdq2pgselectionanchorcontainer\"><em><span>AI-Driven Innovations and Multidisciplinary Perspectives: Research, Innovation, and Society in the Digital Era</span></em><span>, edited by Dr. Priyanka Arora, prese…",
+      "source": "Zenodo",
+      "sourceKey": "zenodo",
+      "url": "https://zenodo.org/records/23663744",
+      "updatedAt": "2026-10-26T11:00:10.249Z",
+      "license": "cc-by-4.0",
+      "format": "Book",
       "tags": [],
       "metrics": {
         "downloads": 0,
@@ -1709,195 +1763,142 @@
         "isDirectDataset": true,
         "isAiRelevant": true
       },
-      "rank": 45
-    },
-    {
-      "id": "github:capitalone/DataProfiler",
-      "title": "DataProfiler",
-      "fullName": "capitalone/DataProfiler",
-      "description": "What's in your data? Extract schema, statistics and entities from datasets",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/capitalone/DataProfiler",
-      "updatedAt": "2026-09-14T21:32:35.000Z",
-      "license": "Apache-2.0",
-      "format": "Python repository",
-      "tags": [
-        "avro",
-        "csv",
-        "data analysis",
-        "data labels",
-        "data science",
-        "dataprofiling"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 1595,
-        "stars": 1595,
-        "forks": 195
-      },
-      "quality": 95,
-      "score": 55,
-      "freshness": 48,
-      "popularity": 45,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 20,
-        "isFork": false,
-        "isDirectDataset": true
-      },
       "rank": 46
     },
     {
-      "id": "github:lartpang/awesome-segmentation-saliency-dataset",
-      "title": "awesome-segmentation-saliency-dataset",
-      "fullName": "lartpang/awesome-segmentation-saliency-dataset",
-      "description": "A collection of some datasets for segmentation / saliency detection. Welcome to PR...:smile:",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/lartpang/awesome-segmentation-saliency-dataset",
-      "updatedAt": "2026-09-15T07:48:27.000Z",
-      "license": "MIT",
-      "format": "Open source",
+      "id": "zenodo:23663499",
+      "title": "AI-Powered Research and Innovations in Computer Science and Mathematics: Shaping the Future Through Intelligence and Innovation",
+      "fullName": "zenodo:23663499",
+      "description": "<p><em><span>AI-Powered Research and Innovations in Computer Science and Mathematics: Shaping the Future Through Intelligence and Innovation</span></em><em><span>,</span></em><span> edited by Dr. Priyanka and Prof. Di…",
+      "source": "Zenodo",
+      "sourceKey": "zenodo",
+      "url": "https://zenodo.org/records/23663499",
+      "updatedAt": "2026-10-26T10:51:53.860Z",
+      "license": "cc-by-4.0",
+      "format": "Book",
+      "tags": [],
+      "metrics": {
+        "downloads": 0,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 75,
+      "score": 55,
+      "freshness": 100,
+      "popularity": 0,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 0,
+        "isFork": false,
+        "isDirectDataset": true,
+        "isAiRelevant": true
+      },
+      "rank": 47
+    },
+    {
+      "id": "zenodo:23661768",
+      "title": "Subgroup Analysis for Risk of Fall Correlation Using the UK Biobank dataset",
+      "fullName": "zenodo:23661768",
+      "description": "<p><span>Falls are a major public health problem, with serious implications for the functionality and quality of life of adults. Although various machine learning approaches have been proposed for predicting fall risk…",
+      "source": "Zenodo",
+      "sourceKey": "zenodo",
+      "url": "https://zenodo.org/records/23661768",
+      "updatedAt": "2026-10-26T10:18:25.195Z",
+      "license": "cc-by-4.0",
+      "format": "Conference paper",
+      "tags": [],
+      "metrics": {
+        "downloads": 0,
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
+      },
+      "quality": 75,
+      "score": 55,
+      "freshness": 100,
+      "popularity": 0,
+      "signals": {
+        "hasDescription": true,
+        "hasLicense": true,
+        "tagCount": 0,
+        "isFork": false,
+        "isDirectDataset": true,
+        "isAiRelevant": true
+      },
+      "rank": 48
+    },
+    {
+      "id": "zenodo:23662511",
+      "title": "An almost-entropic Ingleton score below -0.09738: Conditional hashing of a binary parity structure",
+      "fullName": "zenodo:23662511",
+      "description": "<p>We prove an improved lower bound of 0.097387436922 on the largest normalised Ingleton violation among four-variable almost-entropic vectors. Previously reported constructions reach approximately 0.0925, used as a r…",
+      "source": "Zenodo",
+      "sourceKey": "zenodo",
+      "url": "https://zenodo.org/records/23662511",
+      "updatedAt": "2026-10-26T10:25:53.668Z",
+      "license": "cc-by-4.0",
+      "format": "Preprint",
       "tags": [
-        "dataset",
-        "datasets",
-        "deep learning",
-        "deeplearning",
-        "machine learning",
-        "machinelearning"
+        "entropy region",
+        "Ingleton inequality",
+        "almost entropic cone",
+        "privacy amplification",
+        "information theory",
+        "Lean formalisation"
       ],
       "metrics": {
         "downloads": 0,
-        "likes": 647,
-        "stars": 647,
-        "forks": 97
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
       },
-      "quality": 95,
-      "score": 53,
-      "freshness": 48,
-      "popularity": 40,
+      "quality": 65,
+      "score": 54,
+      "freshness": 100,
+      "popularity": 0,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
         "tagCount": 7,
         "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 47
-    },
-    {
-      "id": "github:safe-graph/graph-fraud-detection-papers",
-      "title": "graph-fraud-detection-papers",
-      "fullName": "safe-graph/graph-fraud-detection-papers",
-      "description": "A curated list of Graph/Transformer-based fraud, anomaly, and outlier detection papers & resources",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/safe-graph/graph-fraud-detection-papers",
-      "updatedAt": "2026-09-13T14:28:47.000Z",
-      "license": "未标注",
-      "format": "Open source",
-      "tags": [
-        "academic publications",
-        "anomaly detection",
-        "awsome list",
-        "data mining",
-        "data science",
-        "dataset"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 1899,
-        "stars": 1899,
-        "forks": 300
-      },
-      "quality": 79,
-      "score": 53,
-      "freshness": 47,
-      "popularity": 47,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": false,
-        "tagCount": 20,
-        "isFork": false,
-        "isDirectDataset": true
-      },
-      "rank": 48
-    },
-    {
-      "id": "github:lukas-blecher/LaTeX-OCR",
-      "title": "LaTeX-OCR",
-      "fullName": "lukas-blecher/LaTeX-OCR",
-      "description": "pix2tex: Using a ViT to convert images of equations into LaTeX code.",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/lukas-blecher/LaTeX-OCR",
-      "updatedAt": "2025-01-18T15:23:58.000Z",
-      "license": "MIT",
-      "format": "Python repository",
-      "tags": [
-        "dataset",
-        "deep learning",
-        "im2latex",
-        "im2markup",
-        "im2text",
-        "image processing"
-      ],
-      "metrics": {
-        "downloads": 0,
-        "likes": 16603,
-        "stars": 16603,
-        "forks": 1304
-      },
-      "quality": 95,
-      "score": 41,
-      "freshness": 0,
-      "popularity": 60,
-      "signals": {
-        "hasDescription": true,
-        "hasLicense": true,
-        "tagCount": 17,
-        "isFork": false,
-        "isDirectDataset": true
+        "isDirectDataset": false,
+        "isAiRelevant": true
       },
       "rank": 49
     },
     {
-      "id": "github:zalandoresearch/fashion-mnist",
-      "title": "fashion-mnist",
-      "fullName": "zalandoresearch/fashion-mnist",
-      "description": "A MNIST-like fashion product database. Benchmark :point_down:",
-      "source": "GitHub",
-      "sourceKey": "github",
-      "url": "https://github.com/zalandoresearch/fashion-mnist",
-      "updatedAt": "2022-06-13T20:36:21.000Z",
-      "license": "MIT",
-      "format": "Python repository",
+      "id": "zenodo:23663725",
+      "title": "Smarter Smiles: Revolutionizing Paediatric Dentistry with Artificial Intelligence – A Review",
+      "fullName": "zenodo:23663725",
+      "description": "<div><strong>Abstract</strong></div> <div>Artificial intelligence (AI) is rapidly transforming paediatric dentistry by supporting dentists in diagnosis, treatment planning, behaviour management, and patient education.…",
+      "source": "Zenodo",
+      "sourceKey": "zenodo",
+      "url": "https://zenodo.org/records/23663725",
+      "updatedAt": "2026-10-26T10:59:18.922Z",
+      "license": "cc-by-4.0",
+      "format": "Journal article",
       "tags": [
-        "benchmark",
-        "computer vision",
-        "convolutional neural networks",
-        "dataset",
-        "deep learning",
-        "fashion"
+        "Paediatric dentistry, artificial intelligence, machine learning, dental diagnostics, caries detection, digital dentistry"
       ],
       "metrics": {
         "downloads": 0,
-        "likes": 12863,
-        "stars": 12863,
-        "forks": 3069
+        "likes": 0,
+        "stars": 0,
+        "forks": 0
       },
-      "quality": 95,
-      "score": 41,
-      "freshness": 0,
-      "popularity": 60,
+      "quality": 49,
+      "score": 51,
+      "freshness": 100,
+      "popularity": 0,
       "signals": {
         "hasDescription": true,
         "hasLicense": true,
-        "tagCount": 11,
+        "tagCount": 1,
         "isFork": false,
-        "isDirectDataset": true
+        "isDirectDataset": false,
+        "isAiRelevant": true
       },
       "rank": 50
     }
